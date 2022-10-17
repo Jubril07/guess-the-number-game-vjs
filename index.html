@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the number game by Mubarak Jubril</title>
+    <link rel="stylesheet" href="style.css" />
+  </head> 
+  <body>
+    <h1>Guess the number game</h1>
+    <div class="container">
+      <div class="game">
+        <div class="scores">
+          <div class="score">Score:0</div>
+          <div class="attempts">Attempts Left:10</div>
+        </div>
+        <br />
+        <input type="number" class="guess" /><br /><br />
+        <button class="btn">Guess</button><br /><br />
+        <div class="compare">
+          <div>
+            Your guess <br />
+            <span class="yourguess"></span>
+          </div>
+          <div>
+            Result <br />
+            <span class="correctnumber"></span>
+          </div>
+        </div>
+      </div>
+      <div class="show-result">
+        <div>
+          <p>Game Over</p>
+          <p class="msg">You scored 2 in 10 attempts</p>
+        </div>
+
+        <br />
+        <button class="restart">Restart</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
